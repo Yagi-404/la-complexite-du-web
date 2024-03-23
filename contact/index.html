@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <script src="./script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Qui somme nous ?</h1>
+    </div>
+    <img src="../images/contact-illustration.png" alt="Image travail de groupe">
+
+    <p>
+        Bienvenue sur notre page contact , sur celle-ci vous allez pouvoir retrouvez les informations sur l’identité des auteurs de notre site.
+    </p>
+
+    <p>
+        Premièrement , nous  sommes un groupe de 4 élèves de seconde générale du lycée polyvalent Eugene Ionesco, nous avons créé ce site suite à un travail demandé en SNT en espérant qu’il vous plaira et vous sera utile.
+    </p>
+
+    <h2>Notre identité et notre rôle</h2>
+    <ul>
+        <li>Rayan : s’occupe des Données Personnelles</li>
+        <li>Ismail : s’occupe des Naviguateurs Internet</li>
+        <li>Chrys : s’occupe du Web et des Droits D’auteurs</li>
+        <li>Paul : s’occupe du Language HTML et CSS</li>
+    </ul>
+
+    <h2>Envoyez-nous un message ci-dessous:</h2>
+    <label for="emailSelector">Qui contacter:</label>
+    <select name="EmailSelector" id="emailSelector">
+        <option value="rayan.amarai76@gmail.com">Rayan</option>
+        <option value="eljamoudinaimeismail@gmail.com">Ismail</option>
+    </select> <br>
+    <input type="text" name="Subject" id="subject" placeholder="Objet..."> <br>
+    <textarea name="Text" id="mailTextarea" cols="50" rows="10" placeholder="Ecrivez votre message ici..."></textarea> <br>
+    <button type="submit" name="Submit" onclick="sendMailTo();">Envoyer</button>
+</body>
+</html>
